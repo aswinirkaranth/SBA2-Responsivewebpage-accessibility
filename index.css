@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-content {
+    /*background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;*/
+    background-image: url('background.jpeg');
+    background-size: cover;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.hero-content img {
+    width: 7em;
+    height: 7em;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+.cta-button {
+    color: aliceblue;
+    font-size: larger;
+}
+
+/*
+nav {
+    background-color: aqua;
+}
+*/
+form {
+    padding-bottom: 25px;
+}
+
+footer {
+    text-align: right;
+    background-color: beige;
+}

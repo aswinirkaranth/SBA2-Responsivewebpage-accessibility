@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Design Co.</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Hero section-->
+
+    <section class="hero-content">
+        <div style="text-align: left;"><img src="logo.png" alt="Accessible Design Co. Logo" class="logo" /></div>
+        <!-- <img src="logo.png" alt="Accessible Design Co. Logo" class="logo" />--> <br>
+        <h1>Design for Every Human</h1>
+        <p>We build accessible, inclusive, and beautiful digital experiences.</p>
+        <a href="#contact" class="cta-button">Let’s Get Started</a> <br>
+    </section>
+
+
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>Welcome to Accessible Design Co.</h1>
+            <p>
+                At Accessible Design Co., we believe that great design is for everyone. Our team specializes in creating
+                intuitive, inclusive, and visually compelling digital experiences that not only look stunning but are
+                also accessible to all users—regardless of ability. Whether you’re building a brand, launching a
+                product, or revamping your website, we help bring your vision to life with clarity and impact.
+            </p>
+        </section>
+    </main>
+
+    <article>
+        <h2 id="about us">About Us</h2>
+        <p>At accessible design co we focus on aesthetic designs.</p>
+        <p>Customize your designs based on requirements.</p>
+
+        <p>Choose from a variety of templates.</p>
+
+        <section>
+            <h2 id="services">Services</h2>
+            <p>Design your own solutions.</p>
+        </section>
+        <p>Browse further to learn more.</p>
+        <form id="contact" aria-labelledby="contact-form-heading">
+            <h2 id="contact-form-heading">Get in Touch</h2>
+
+            <!-- Name Field -->
+            <div>
+                <label for="name">Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-desc" />
+                <small id="name-desc">Enter your full name.</small><br>
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email">Email <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required aria-required="true"
+                    aria-describedby="email-desc" />
+                <small id="email-desc">We'll never share your email.</small><br>
+            </div>
+
+            <!-- Subject Field -->
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" aria-describedby="subject-desc" />
+                <small id="subject-desc">Briefly describe your message topic.</small><br>
+            </div>
+
+            <!-- Message Field -->
+            <div>
+                <label for="message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" required aria-required="true"
+                    aria-describedby="message-desc"></textarea>
+                <small id="message-desc">Please provide details on how we can help you.</small><br>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+            <br>
+        </form>
+    </article>
+
+
+    <!--Footer-->
+    <footer>
+        <div>
+            &copy; 2025 Accessible Design Co.. All rights reserved.
+        </div>
+        <div>
+            <p>Checkout our Github page: <a
+                    href="https://github.com/aswinirkaranth/SBA2-Responsivewebpage-accessibility"
+                    target="_blank">Github</a></p>
+        </div>
+        <div>
+            <p>Contact us: <a href="mailto:info@accessibledesign.com">info@accessibledesign.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </footer>
+</body>
+
+</html>
